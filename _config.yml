@@ -1,0 +1,32 @@
+title: "AbSys"
+tagline: ""
+description: "blog for AbSys studio"
+github_username: studioabsys
+email: absysstudio@gmail.com
+
+# Theme settings
+remote_theme: tareqdandachi/jekyll-shell-theme
+theme_settings:
+  # Shell prompt customization
+  prompt_location: "~"
+  prompt_color: "green"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jemoji
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+highlighter: rouge #selecting the highlighter, default is rouge
+
+header_pages:
+  - index.md
+  - about.md
+  - a-third-page.md
+
+font-size: medium
+
